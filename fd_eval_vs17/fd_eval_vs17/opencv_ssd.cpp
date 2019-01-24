@@ -3,8 +3,8 @@
 
 opencv_ssd::opencv_ssd()
 {
-	caffeConfigFile = "data/deploy.prototxt";
-	caffeWeightFile = "data/blink.caffemodel";
+	caffeConfigFile = "data/opencv_ssd_face_fp16_deploy.prototxt";
+	caffeWeightFile = "data/opencv_ssd_face_fp16.caffemodel";
 
 	inWidth = 300;
 	inHeight = 300;
